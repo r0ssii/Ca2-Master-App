@@ -1,6 +1,6 @@
 /**
  * @Date:   2020-02-18T14:46:24+00:00
- * @Last modified time: 2020-03-31T15:21:34+01:00
+ * @Last modified time: 2020-04-06T11:42:16+01:00
  */
 
 
@@ -20,6 +20,7 @@ import LecturesIndex from './view/lecturers/Index'
 import LecturesShow from './view/lecturers/Show'
 
 import EnrolmentsCreate from './view/enrolments/Create'
+import EnrolmentsEdit from './view/enrolments/Edit'
 
 
 
@@ -60,17 +61,17 @@ name:'LecturesCreate',
 component: LecturesCreate
 },
 {
-path:'/lectures/edit',
+path:'/lecturers/edit',
 name:'LecturesEdit',
 component: LecturesEdit
 },
 {
-path:'/lectures/index',
+path:'/lecturers/index',
 name:'LecturesIndex',
 component: LecturesIndex
 },
 {
-path:'/lectures/show',
+path:'/lecturers/show',
 name:'LecturesShow',
 component: LecturesShow
 },
@@ -78,7 +79,13 @@ component: LecturesShow
   path:'/enrolments/create',
   name:'EnrolmentsCreate',
   component: EnrolmentsCreate
+},
+{
+  path:'/enrolments/edit',
+  name:'EnrolmentsEdit',
+  component: EnrolmentsEdit
 }
+
 
 ]
 

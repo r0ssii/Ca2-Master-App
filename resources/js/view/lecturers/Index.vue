@@ -41,7 +41,7 @@ export default {
     }
   },
   created(){
-console.log("error here");
+//console.log("error here");
     let app = this;
     let token = localStorage.getItem('token');
     axios.get('/api/lecturers', {

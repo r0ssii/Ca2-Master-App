@@ -1,6 +1,6 @@
 <!--
 @Date:   2020-03-10T14:10:02+00:00
-@Last modified time: 2020-03-31T15:07:53+01:00
+@Last modified time: 2020-04-06T11:41:13+01:00
 -->
 
 
@@ -18,7 +18,7 @@
         <b-dropdown-item to="/courses/create">Create</b-dropdown-item>
       </b-nav-item-dropdown>
       <b-nav-item-dropdown text="Lecturers" left>
-        <b-dropdown-item to="/lecturers/index">View All</b-dropdown-item>
+        <b-dropdown-item to="/lecturers/show">View All</b-dropdown-item>
       </b-nav-item-dropdown>
       <b-nav-item-dropdown text="Enrolments" left>
         <b-dropdown-item to="/enrolments/create">Enrol Now!</b-dropdown-item>
